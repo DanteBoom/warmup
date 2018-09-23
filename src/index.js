@@ -1,3 +1,4 @@
 module.exports = function warmup(temperature) {
-  // your implementation here
+  var input = temperature;
+  return (1.8*input + 32);
 };
